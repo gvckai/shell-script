@@ -4,6 +4,9 @@ git init
 # First time if you want to create repository in local system we user above  command create folder which you want
 ```
 # First time when you intractive with git we will error
+- git config --global user.email "gvckai@gmail.com"
+- git config --global user.name "gvckai"
+git remote set-url origin https://github.com/gvckai/shell-script.git
 ## when you push we will get bellow error
 ```
 git push -u origin main
@@ -15,4 +18,9 @@ git push -u origin main
 **Chech which repository we are?**
 ```
 git remote -v
-git remote set-url origin https://<YOUR_TOKEN>@github.com/your-username/your-repo-name.git
+git remote set-url origin https://<YOUR_TOKEN>@github.com/
+git push -u origin main
+```
+# How to bring repo from gitrepository 
+git clone <git url>
+git clone https://github.com/gvckai/shell-script.gitv
