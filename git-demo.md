@@ -24,3 +24,12 @@ git push -u origin main
 # How to bring repo from gitrepository 
 git clone <git url>
 git clone https://github.com/gvckai/shell-script.gitv
+## If you create a new directory in local repository
+**How to change like git repository**
+ - if you find .git infolder, that is git repository
+ - if the folder hsd .git it is called git repo
+ - if the folder does not have .git that is narmal folder
+```
+mkdir my-test-folder
+```
+
