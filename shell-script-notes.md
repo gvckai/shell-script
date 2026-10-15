@@ -54,3 +54,5 @@ VAR=$(command)
      - COURSE="AIOps with DevSecOPs on AWS"
      - DURATION="124 Hours"
      - TRAINER="VIJAY CHANDRA KUMAR" 
+**env Command**
+  -  -> **it will print All Environment Variables, including our loaded variables**
