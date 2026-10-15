@@ -38,3 +38,15 @@ VAR=$(command)
   - **echo "Line Number : $LINENO"**
   - **echo "Exit status of last command : $?"**
   - **echo "Total time taken by script to excute : $SECONDS seconds"**
+
+  ## Environment Variables
+  =========================
+  - Generaly we use export COURSE="Shell Script"
+   - Works until the session is alive, sub process also can refer , if louout session is gone, variable is also gone..
+## if you want permanently keep environment variable"
+  - sudo vim .bashrc
+    - export COURSE="Shell Script"
+    - export DURATION="10 Hours"
+    **if you do like - It will be permanently**
+    - **if you make do immidetaly efect**
+    **source .bashrc**
