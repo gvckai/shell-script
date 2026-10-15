@@ -6,7 +6,7 @@ if [$markds -lt 35]; then
 echo "Fail"
 elif [$marks -lh 50]; then
 echo "third class"
-elif[#marks -lt 60]; then
+elif [#marks -lt 60]; then
 echo "second class"
 elif [#marks -lt 70]; then
 echo "first class"
