@@ -8,5 +8,5 @@ declare -i COUNT=26 # I am declaring as integer variable
 COUNT=COUNT+4
 echo "Count is : $COUNT"
 
-FRUITS=(Apple Banana Mango Orange) # This ia called as array Variable
+FRUITS=("Apple" "Banana" "Mango" "Orange") # This ia called as array Variable
 echo "Fruits are : ${FRIUTS[@]}"
