@@ -14,4 +14,4 @@ echo "PID of the command running in backgrount nos: $!"
 wait $! # script waits untle $1 command complete
 echo "Line Number : $LINENO"
 echo "Exit status of last command : $?"
-echo "Total time taken by script to excute : $SECONDS seconds
+echo "Total time taken by script to excute : $SECONDS seconds"
