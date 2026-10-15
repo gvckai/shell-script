@@ -44,9 +44,13 @@ VAR=$(command)
   - Generaly we use export COURSE="Shell Script"
    - Works until the session is alive, sub process also can refer , if louout session is gone, variable is also gone..
 ## if you want permanently keep environment variable"
-  - sudo vim .bashrc
+  - sudo vim .bashrc - it works only ec2 user
     - export COURSE="Shell Script"
     - export DURATION="10 Hours"
     **if you do like - It will be permanently**
     - **if you make do immidetaly efect**
     **source .bashrc**
+    - sudo vim /ect/profile.d/*.sh -> it works for all users 
+     - COURSE="AIOps with DevSecOPs on AWS"
+     - DURATION="124 Hours"
+     - TRAINER="VIJAY CHANDRA KUMAR" 
