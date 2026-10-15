@@ -23,6 +23,7 @@ VAR=$(command)
  - shaell handover to us few variables to use directly.
  ### Specail variables###
   - **echo "All args passed to script : $@" ##-----**
+  - **echo "All args passed to script as a word : $*"**
   - **echo "Number od args passed to script : $#"**
   - **echo "First variable passed to script : $1"**
   - **echo "Sript name : $0"**
