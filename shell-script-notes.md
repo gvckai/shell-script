@@ -85,12 +85,19 @@ thisr class, distinction
   ## Numeric Comparisons
      
 **Operator        Description	                  Example**
+
   -eq	            Equal to	                    [ $a -eq $b ]
+
   -ne	            Not equal to	                [ $a -ne $b ]
+
   -gt	            Greater than	                [ $a -gt $b ]
+
   -ge	            Greater than or equal to	    [ $a -ge $b ]
+
   -lt	            Less than	                    [ $a -lt $b ]
+
   -le	            Less than or equal to	        [ $a -le $b ]
+  
 
 ## String Comparisons
 **Operator        Description	                    Example**
