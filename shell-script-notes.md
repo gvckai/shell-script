@@ -56,3 +56,52 @@ VAR=$(command)
      - TRAINER="VIJAY CHANDRA KUMAR" 
 **env Command**
   -  -> **it will print All Environment Variables, including our loaded variables**
+# Variables
+
+
+# Conditions
+=============
+- Tell me a number is even or odd number : if a number is divisible  by 2 It is even, otherwise odd
+  - remainder is **1** It is **odd**
+  - remainder is **0** It is **even**
+     - what is the number
+     - is divisible by 2 reminder is 0 --> then even
+     - if reminder is not 0, then it is odd
+## We should write psudo code
+ - start progra
+ - get the number
+ - divided by 2 get the remainer 
+ 
+
+Small Program for Maks if i give marks, tell pass or fail, fist class, secont class
+thisr class, distinction
+ -  less than 35 -> fail
+ - greather than or equal to 35 but less than 50 --> third class
+ - gratehen than or equal to 50 but less than 60 --> second class
+ - grather than or equal to 60 but less than 70 --> first class
+ - grather than or equal to 70 distinction
+
+# Common Comparison Operators
+  ## Numeric Comparisons
+     
+**Operator        Description	                  Example**
+  -eq	            Equal to	                    [ $a -eq $b ]
+  -ne	            Not equal to	                [ $a -ne $b ]
+  -gt	            Greater than	                [ $a -gt $b ]
+  -ge	            Greater than or equal to	    [ $a -ge $b ]
+  -lt	            Less than	                    [ $a -lt $b ]
+  -le	            Less than or equal to	        [ $a -le $b ]
+
+## String Comparisons
+**Operator        Description	                    Example**
+**= or ==	        Equal to**	                    [ **"$str1" = "$str2"** ]
+**!=	            Not equal to**	                [ **"$str1" != "$str2"** ]
+**-z	            True if string is empty**	      [ **-z "$str"** ]
+**-n	            True if string is not empty**	  [ **-n "$str"** ]
+
+
+
+
+
+
+

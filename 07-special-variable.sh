@@ -1,7 +1,7 @@
 #!/bin/bash
 ### Specail variables###
 echo "All args passed to script : $@" ##-----
-echo "All ares passed to the script as word: $*"
+
 echo "Number od args passed to script : $#"
 echo "First variable passed to script : $1"
 echo "Sript name : $0"
@@ -15,4 +15,4 @@ echo "PID of the command running in backgrount nos: $!"
 wait $! # script waits untle $1 command complete
 echo "Line Number : $LINENO"
 echo "Exit status of last command : $?"
-echo "Total time taken by script to excute : $SECONDS seconds"
+echo "Total time taken by script to excute : $SECONDS seconds"echo "All ares passed to the script as word: $*"
