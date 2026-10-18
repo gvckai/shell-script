@@ -60,3 +60,21 @@ Any Scripting Language Has
 - loops
 - error handling
 Argument/args/
+### Special variables
+On top of the variables you define yourself, the shell provides several built in:
+
+| Variable | Meaning |
+|---|---|
+| `$@` | All arguments passed to the script |
+| `$#` | Number of arguments passed |
+| `$1`, `$2`, ... | Individual positional arguments |
+| `$0` | The script's own name |
+| `$(realpath $0)` | The script's full path |
+| `$USER` | Who is running the script |
+| `$PWD` | Current working directory |
+| `$HOME` | Home directory of the current user |
+| `$$` | Process ID (PID) of the current script |
+| `$!` | PID of the most recent background command |
+| `$LINENO` | The current line number in the script |
+| `$?` | Exit status of the previous command |
+| `$SECONDS` | Total time the script has been running |
