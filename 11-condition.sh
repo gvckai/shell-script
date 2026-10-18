@@ -1,9 +1,12 @@
 #!/bin/bash
+
 user_id=$(id -u)
+
 if [ $user_id -ne 0 ]; then
     echo "please run this script with sudo access..."
     exit 1
 fi
+
 validate(){
     if [ $1 -ne 0 ]; then
         echo "${2}..FAILED"
@@ -12,9 +15,12 @@ validate(){
         echo "${2}..Sucess"
     fi
 }
-echo " proceeding....."
+
+echo "proceeding....."
 dnf install nginx -y
 validate $? "nginix installation"
+
 dnf intsall mysql -y
 validate $? "mysql installation"
+
 echo "still proceeded.."
