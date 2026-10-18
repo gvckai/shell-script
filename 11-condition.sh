@@ -5,19 +5,18 @@ if [ $user_id -ne 0 ]; then
     echo "Please run this script with sudo access"
     exit 1
 fi
+validate(){
+if [$1 -ne 0 ]; then
+    echo "$2 ... FAILED"
+    exit 1
+else 
+    echo "$2 ... SUCCESSFUL"
+fi
+}
 echo "proceeding ...." 
 dnf install nginx -y
-if [$? -ne 0 ]; then
-    echo "inginx installation failed"
-    exit 1
-else 
-    echo "nginx installation successful"
-fi
+validate $? "nginix installation"
+
 dnf install mysql -y
-if [$? -ne 0 ]; then
-    echo "mysql installation failed"
-    exit 1
-else 
-    echo "mysql installation sucessful"
-fi
-echo "still proceeded"
+validate $? "mysql installation"
+echo "still processing..."
