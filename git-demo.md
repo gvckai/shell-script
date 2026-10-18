@@ -78,3 +78,8 @@ On top of the variables you define yourself, the shell provides several built in
 | `$LINENO` | The current line number in the script |
 | `$?` | Exit status of the previous command |
 | `$SECONDS` | Total time the script has been running |
+
+
+| important-config- file | Paths |
+|---|---|
+| users name | /etc/passwd |
