@@ -32,4 +32,31 @@ git clone https://github.com/gvckai/shell-script.gitv
 ```
 mkdir my-test-folder
 ```
+## if you want to conver into git reoi
+**By using git init**
+  - **it will be converted git repository/git initatisation**
+```
+git config --global init.defaultBranch <name>
+git branch -M main 
+ - # The command git branch -M main is used to rename your current working local branch to main.
+```
+- you should create same name of the folder in github repository
+    - **Then You should follow belo commands**
+        - git remote add origin https://github.com/gvckai/my-test-floder.git
+        - git branch -M main
+        - git push -u origin main
+**git add . ; git commit -m "conversation"; git push origin main**
 
+DRY -> Dont Repeat yourself
+1. Variable hold the values against variable name 
+2. if you change in single place , it will be effected everywhere whereever refer
+3. prevent accidental changes
+
+Any Scripting Language Has 
+- variables
+- data types
+- conditions
+- functions
+- loops
+- error handling
+Argument/args/
