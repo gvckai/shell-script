@@ -80,6 +80,7 @@ On top of the variables you define yourself, the shell provides several built in
 | `$SECONDS` | Total time the script has been running |
 
 
-| important-config- file | Paths |
+| important-config- files | Paths |
 |---|---|
 | users name | /etc/passwd |
+| groups name | /etc/group |
